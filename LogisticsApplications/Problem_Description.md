@@ -1,6 +1,6 @@
 # Inbound Logistics Forecasting
 
-(Forecasting System for Inbound Logistics Material Flows at an International Automotive Company)[https://www.mdpi.com/2673-4591/39/1/75]   
+[Forecasting System for Inbound Logistics Material Flows at an International Automotive Company](https://www.mdpi.com/2673-4591/39/1/75)
 
 The problem at hand refers to forecasting the inbound material flows on monthly basis for the next 4 months. Material volume moves from the consolidation centers to the plants via the main legs in and a Area Forwarding-based Inbound Logistics Network, as explained in the following image:
 
@@ -22,6 +22,7 @@ Activities:
 
 1) Create and Exploratory Data Analysis in oder to: 
     - Understand how many time series can actually be forecasted. Some material flows might be outdated. Not all providers deliver materials to all plants. 
+    - How would you analyze the relationship between the volume and the production data?
     - Understand the data: Analyse time series patterns, seasonality, outliers. 
 2) Create a Baseline model to start the analysis with. The company in this problem uses a 3-month moving average as a forecast. Therefore, build this forecast and measure the accuracy using the following metrics: 
     - Symetric Mean Absolute Error
