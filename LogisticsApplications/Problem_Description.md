@@ -1,6 +1,6 @@
 # Inbound Logistics Forecasting
 
-[Forecasting System for Inbound Logistics Material Flows at an International Automotive Company][https://www.mdpi.com/2673-4591/39/1/75]   
+(Forecasting System for Inbound Logistics Material Flows at an International Automotive Company)[https://www.mdpi.com/2673-4591/39/1/75]   
 
 The problem at hand refers to forecasting the inbound material flows on monthly basis for the next 4 months. Material volume moves from the consolidation centers to the plants via the main legs in and a Area Forwarding-based Inbound Logistics Network, as explained in the following image:
 
@@ -16,7 +16,7 @@ The test timeframes are:
 - May 2022 - Aug 2022
 - Sep 2022 - Dec 2022
 
-That means every time a test frame is tested, the forecasting systems ( which may include one or multiple models) can only use training data until the month before the starting month in the test period. 
+That means every time a test frame is tested, the forecasting systems (which may include one or multiple models) can only use training data until the month before the starting month in the test period. 
 
 Activities:
 
@@ -46,5 +46,18 @@ Activities:
     - CNN
     - NHITS
     - NBEATS
+7) Let's analyze risk. Create Prediction Intervals. Conformal Prediction. 
+
+# References 
+
+- [Timeseries Forecasting by Konrad Banachewicz](https://www.kaggle.com/code/konradb/ts-0-the-basics/notebook)
+
+## Forecasting Libraries
+- [Nixtla - Baseline Models](https://nixtlaverse.nixtla.io/statsforecast/src/core/models.html#baseline-models)
+- [Nixtla - Statistical Forecasting](https://nixtlaverse.nixtla.io/statsforecast/index.html)
+- [Nixtla - ML Forecast](https://nixtlaverse.nixtla.io/mlforecast/index.html)
+- [Nixtla - Deep Learning Forecasting](https://nixtlaverse.nixtla.io/neuralforecast/index.html)
+- [Sktime](https://www.sktime.net/en/stable/api_reference.html)
+- [Darts](https://unit8co.github.io/darts/)
     
 
