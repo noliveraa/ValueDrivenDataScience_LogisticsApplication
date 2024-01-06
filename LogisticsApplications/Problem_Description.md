@@ -14,7 +14,7 @@ The test timeframes are:
 - Sep 2021 - Dec 2021
 - Jan 2022 - Apr 2022
 - May 2022 - Aug 2022
-- Sep 2022 - Dec 2022
+- Jul 2022 - Oct 2022
 
 That means every time a test frame is tested, the forecasting systems (which may include one or multiple models) can only use training data until the month before the starting month in the test period. 
 
