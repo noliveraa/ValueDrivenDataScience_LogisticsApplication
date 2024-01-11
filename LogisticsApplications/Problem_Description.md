@@ -14,13 +14,13 @@ The test timeframes are:
 - Sep 2021 - Dec 2021
 - Jan 2022 - Apr 2022
 - May 2022 - Aug 2022
-- Sep 2022 - Dec 2022
+- Jul 2022 - Oct 2022
 
 That means every time a test frame is tested, the forecasting systems (which may include one or multiple models) can only use training data until the month before the starting month in the test period. 
 
 Activities:
 
-1) Create and Exploratory Data Analysis in oder to: 
+1) Create and Exploratory Data Analysis in order to: 
     - Understand how many time series can actually be forecasted. Some material flows might be outdated. Not all providers deliver materials to all plants. 
     - How would you analyze the relationship between the volume and the production data?
     - Understand the data: Analyse time series patterns, seasonality, outliers. 

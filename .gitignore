@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+LogisticsApplications/functions.py
 
 # C extensions
 *.so
